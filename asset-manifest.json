@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.fcf8b424.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.fcf8b424.js.map": "/static/js/main.fcf8b424.js.map"
+    "main.css": "/yaroslav-project/static/css/main.e6c13ad2.css",
+    "main.js": "/yaroslav-project/static/js/main.fcf8b424.js",
+    "index.html": "/yaroslav-project/index.html",
+    "main.e6c13ad2.css.map": "/yaroslav-project/static/css/main.e6c13ad2.css.map",
+    "main.fcf8b424.js.map": "/yaroslav-project/static/js/main.fcf8b424.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
