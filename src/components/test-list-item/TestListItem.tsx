@@ -3,13 +3,13 @@ import '../../index.css';
 export interface TestListItemProps {
     id: number;
     name: string;
+    setCurrentDocId: Function;
 }
 
-export function TestListItem({id, name}: TestListItemProps) {
+export function TestListItem({id, name, setCurrentDocId}: TestListItemProps) {
     function onTestListItemClick() {
-        console.log('clicked ' + id);
+        setCurrentDocId(id);
     }
-
 
     return (
         <div>

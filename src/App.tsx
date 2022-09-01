@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { DocAnswer } from "./components/answer-list/DocAnswer";
 import { FunnyTitle } from "./components/funny-title/FunnyTitle";
+import { DocTheory } from "./components/test-doc/DocTheory";
 import { TestList } from "./components/test-list/TestList";
 import { testDocs } from './data/TestDocs';
 
@@ -14,7 +16,9 @@ function App() {
   	return (
 		<div>
 			<FunnyTitle title={title} setTitle={setTitle}/>
-			<TestList docList={testDocs}/>
+			<TestList docList={testDocs} setCurrentDocId={setCurrentDocId}/>
+			<DocTheory docList={testDocs} currentDocId={currentDocId}/>
+			<DocAnswer docList={testDocs} currentDocId={currentDocId}/>
 		</div>
   	);
 }
